@@ -4,7 +4,7 @@
 #
 Name     : R-base64url
 Version  : 1.4
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/base64url_1.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/base64url_1.4.tar.gz
 Summary  : Fast and URL-Safe Base64 Encoder and Decoder
@@ -43,10 +43,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640890817
+export SOURCE_DATE_EPOCH=1640972670
 
 %install
-export SOURCE_DATE_EPOCH=1640890817
+export SOURCE_DATE_EPOCH=1640972670
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
