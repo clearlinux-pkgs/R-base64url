@@ -4,7 +4,7 @@
 #
 Name     : R-base64url
 Version  : 1.4
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/base64url_1.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/base64url_1.4.tar.gz
 Summary  : Fast and URL-Safe Base64 Encoder and Decoder
